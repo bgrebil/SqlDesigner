@@ -1,0 +1,4 @@
+This is a fork of the WWW Sql Designer project found at: http://code.google.com/p/wwwsqldesigner
+
+This is mainly a personal fork. This removes all server side references, making it a client 
+side tool only. I've also stripped out everything I wouldn't need.
