@@ -1340,6 +1340,7 @@ SQL.IO.prototype.clientlocalsave = function() {
 	}
 
 	var key = prompt(_("serversaveprompt"), this._name) || "default";
+   document.title = 'SQL Designer - ' + key;
 	key = "wwwsqldesigner_databases_"+key;
 	
 	try {
@@ -1359,6 +1360,7 @@ SQL.IO.prototype.clientlocalload = function() {
 	}
 	
 	var key = prompt(_("serverloadprompt"), this._name) || "default";
+   document.title = 'SQL Designer - ' + key;
 	key = "wwwsqldesigner_databases_"+key;
 	
 	try {
